@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration and Contact</title>
+   <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #fef7ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 280px;
+}
+
+.box h2 {
+  font-size: 22px;
+  color: #1d3557;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+form label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #1d4ed8;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 30px;
+  background-color: #e0e7ff;
+  color: #1d4ed8;
+  padding: 10px;
+  border-radi
+}
+
+   </style>
+  
+</head>
+<body>
+  <div class="container">
+    <!-- Registration Box -->
+    <div class="box">
+      <h2>Registration</h2>
+      <p>Sign Up</p>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <button type="submit">Register</button>
+      </form>
+    </div>
+
+    <!-- Contact Us Box -->
+    <div class="box">
+      <h2>Contact Us</h2>
+      <div class="icon-text">
+        <div class="icon">📧</div>
+        <div>
+          <p><strong>Email</strong></p>
+          <p>info@example.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
